@@ -1,0 +1,27 @@
+{
+  "name": "eneas200/ep07",
+  "description": "DESCOMPLICANDO MVC COM PHP DO JEITO CERTO",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "eneas sena",
+      "email": "desenvolvedoreneas2000@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.3",
+    "ext-pdo": "*",
+    "coffeecode/datalayer": "1.1.*",
+    "coffeecode/router": "1.0.*",     
+    "league/plates": "3.*"
+  }
+}
